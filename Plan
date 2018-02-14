@@ -1,0 +1,43 @@
+Fantasy Battle
+
+Main character
+Stats:
+HP - Needs max HP
+MP - Needs max MP
+Strength
+Defence
+Magic Power
+Magic Defence
+Agility
+Speed
+
+Abilities:
+- Attack
+- Cast Cure
+- Cast Thunder
+- Thunder Sword
+
+Enemy
+Stats:
+HP - Needs max HP
+MP - Needs max MP
+Strength
+Defence
+Magic Power
+Magic Defence
+Agility
+Speed
+
+Abilities:
+- Attack
+
+Enemy List:
+Goblin
+- Generic Stats, no abilities
+
+Golem
+- 0 Agility/Speed, Strong, Tough defence, Big HP
+- Weak vs Thunder Sword
+Abilities
+- Stone Telekinesis
+- Earthquake
