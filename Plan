@@ -1,43 +1,144 @@
-Fantasy Battle
+=======================================================================================================
+                                                 Fantasy Battle
+=======================================================================================================
+Battle messages in a box in the middle.
+Character and enemy images and status to the sides of the box.
+Character gets 150 HP and 70 MP Restored after each match.
+Character Levels up after battle with Werewolf, and Goblin General (+5 to every stat, 100 to HP/MP).
+Buttons for each ability.
+Calculate speed after selecting the ability.
+=======================================================================================================
+Formulas
+Attack:
+Damage = (strengh / enemyDefence) * strengh.
 
-Main character
+Magic:
+Magic Damage = (Magic's Strength / enemyMagicDefence) * magicAttack.
+=======================================================================================================
+Main character (Red Mage)
+
 Stats:
-HP - Needs max HP
-MP - Needs max MP
-Strength
-Defence
-Magic Power
-Magic Defence
-Agility
-Speed
+HP = 350
+MP = 250
+Strength - 25
+Defence - 30
+Magic Power - 30
+Magic Defence - 35
+Agility - 28
+Speed - 24
 
 Abilities:
 - Attack
-- Cast Cure
-- Cast Thunder
-- Thunder Sword
-
-Enemy
-Stats:
-HP - Needs max HP
-MP - Needs max MP
-Strength
-Defence
-Magic Power
-Magic Defence
-Agility
-Speed
-
-Abilities:
-- Attack
-
+- Cast Cure - 30MS - 20MP
+- Cast Thunder - 45MS - 30MP
+- Thunder Sword - 50MS - 45MP
+=======================================================================================================
 Enemy List:
+=======================================================================================================
 Goblin
-- Generic Stats, no abilities
 
-Golem
-- 0 Agility/Speed, Strong, Tough defence, Big HP
+Stats:
+HP = 120
+MP = 0
+Strength - 20
+Defence - 30
+Magic Power - 0
+Magic Defence - 10
+Agility - 15
+Speed - 10
+
+Abilities:
+- Attack
+=======================================================================================================
+Werewolf
+
+Stats:
+HP = 180
+MP = 0
+Strength - 30
+Defence - 25
+Magic Power - 0
+Magic Defence - 20
+Agility - 30
+Speed - 27
+
+- Strong vs Thunder and Thunder Sword
+
+Abilities:
+- Attack
+=======================================================================================================
+Eye Monster
+
+Stats:
+HP = 195
+MP = 10
+Strength - 20
+Defence - 30
+Magic Power - 20
+Magic Defence - 5
+Agility - 20
+Speed - 30
+
+- Weak vs Thunder and Thunder Sword
+
+Abilities:
+- Attack
+- Dark Bite - 30MS - 5MP
+=======================================================================================================
+Zombie
+
+Stats:
+HP = 250
+MP = 20
+Strength - 33
+Defence - 0
+Magic Power - 20
+Magic Defence - 10
+Agility - 15
+Speed - 30
+
+- Weak vs Thunder
+- Strong vs Thunder Sword
+
+Abilities:
+- Attack
+- Poisonus Bite - 35MS - 5MP
+=======================================================================================================
+Goblin General
+
+Stats:
+HP = 280
+MP = 30
+Strength - 35
+Defence - 30
+Magic Power - 10
+Magic Defence - 18
+Agility - 25
+Speed - 20
+
+- Weak Thunder Sword
+- Strong vs Thunder
+
+Abilities:
+- Attack
+- Goblin Slash - 40MS - 15MP
+=======================================================================================================
+Stone Warrior
+
+Stats:
+HP = 500
+MP = 100
+Strength - 30
+Defence - 40
+Magic Power - 20
+Magic Defence - 20
+Agility - 0
+Speed - 0
+
 - Weak vs Thunder Sword
-Abilities
-- Stone Telekinesis
-- Earthquake
+- Strong vs Thunder
+
+Abilities:
+- Attack
+- Stone Telekinesis - 40MS - 25MP
+- Earthquake - 55MS - 40MP
