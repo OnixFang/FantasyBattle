@@ -1,0 +1,30 @@
+body {
+    background: #353535;
+    color: #DDDDDD;
+    font-family: Consolas;
+}
+
+.mainbox {
+    margin-top: 1%;
+    border: solid white 4px;
+    width: 50%;
+    height: 240px;
+    text-align: left;
+    padding: 1%;
+    overflow: scroll;
+}
+
+.charbox td {
+    margin-top: 1%;
+    border: solid white 1px;
+    text-align: right;
+}
+
+.charbox td + td {
+    text-align: center;
+}
+
+.table tr td {
+    border: solid white 1px;
+    text-align: center;
+}
