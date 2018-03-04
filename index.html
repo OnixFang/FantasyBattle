@@ -8,10 +8,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico in the root directory -->
+    <!-- Site icons -->
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="icon" href="icon.png">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Main CSS files -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -21,16 +25,18 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-    <!-- Add your site or application content here -->
     <h1>Fantasy Battle</h1>
-    <h3>Battle a series of enemies and make it to the end in a survival battle trial!</h3>
-    <button style="width: 110px; font-size: 24pt">Battle!</button>
-    <div class="mainbox">Test message</div>
+    <p>Battle a series of enemies and make it to the end in a survival battle trial!</p>
+    <button class="btn btn-success">Battle!</button>
+    <div class="jumbotron col-sm-6" style="margin: auto;margin-top: 1%; padding: 5px; background-color: #353535; border: 3px #4090C0 solid">
+        <div class="mainbox">Test message</div>
+    </div>
     <p>Abilities</p>
-    <button>Attack</button>
-    <button>Cast Cure</button>
-    <button>Cast Thunder</button>
-    <button>Thunder Sword</button>
+    <button class="btn btn-secondary">Attack</button>
+    <button class="btn btn-secondary">Cast Cure</button>
+    <button class="btn btn-secondary">Cast Thunder</button>
+    <button class="btn btn-secondary">Thunder Sword</button>
+
     <!-- Scripts -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -39,6 +45,11 @@
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 
 </html>
